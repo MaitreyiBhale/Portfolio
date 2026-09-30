@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <title>Maitreyi Bhale's | Portfolio</title>
+
+    <style>
+        /* ===== CHANGE COLORS HERE ===== */
+        body {
+            font-family: Ebrima, sans-serif;
+            margin: 0;
+            background: #F5EFE6;
+            color: #2F241F;
+        }
+
+        header {
+            background: #FFFDF8;
+            color: #6B4F3A(0, 0, 0);
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #6B4F3A;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 50px 10%;
+            text-align: center;
+        }
+
+        .profile {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #6B4F3A;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        h2 {
+            color: #6B4F3A;
+        }
+
+        .skills, .projects {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: #FFFDF8;
+            padding: 20px;
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px #D8C8B8;
+        }
+
+        footer {
+            background: #2F241F;
+            color: #FFFDF8(17, 14, 14);
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 30px;
+            }
+
+            section {
+                padding: 40px 5%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header>
+        <!-- CHANGE HERE: Your name -->
+        <h2>Maitreyi Bhale</h2>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- ===== ABOUT / INTRODUCTION ===== -->
+    <section id="about">
+
+        <!-- CHANGE HERE:
+             Put profile.jpg in the same folder as index.html -->
+        <img src="photo.jpg" alt="Your Photo" class="profile">
+
+        <!-- CHANGE HERE: Your name -->
+        <h1>Hello, I'm Maitreyi Bhale</h1>
+
+        <!-- CHANGE HERE: Your introduction -->
+        <p>
+            Hello I am Maitreyi Bhale, an undergraduate Computer Science student and aspiring software developer.
+            I love reading books, keeping up with the latest developments in the tech world, and listening to music. 
+            I am always curious to learn, create, and grow both personally and professionally.
+
+        </p>
+
+    </section>
+
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills">
+
+        <h2>My Skills</h2>
+
+        <div class="skills">
+
+            <!-- CHANGE HERE: Your skills -->
+            <div class="card">
+                <h3>Problem Solving</h3>
+                <p>Using logical thinking and programming concepts to analyze problems and develop effective solutions.</p>
+            </div>
+
+            <div class="card">
+                <h3>Collaborative Work</h3>
+                <p>Working effectively with others, sharing ideas, communicating clearly, and contributing to team projects.</p>
+            </div>
+
+            <div class="card">
+                <h3>Quick Learner</h3>
+                <p>Willingness to learn new technologies, tools, and concepts.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects">
+
+        <h2>My Projects</h2>
+
+        <div class="projects">
+
+            <!-- CHANGE HERE: Project 1 -->
+            <div class="card">
+                <h3>Project 1</h3>
+                <p>
+                   A Python program for managing grocery items.
+                </p>
+
+    <a href="https://github.com/MaitreyiBhale/grocery-python" target="_blank">
+        View Project →
+      </a>
+     </div>
+            
+
+            <!-- CHANGE HERE: Project 2 -->
+            <div class="card">
+                <h3>Project 2</h3>
+                <p>
+                    A Python program to calculate the number of days in a month.
+                </p>
+                <a href="https://github.com/MaitreyiBhale/months-python" target="_blank">
+        View Project →
+       </a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+
+        <!-- CHANGE HERE: Your email -->
+        <p>Email: bhalem9a@gmail.com</p>
+
+        <!-- CHANGE HERE: Your GitHub -->
+        <p>
+            GitHub:
+            <a href="https://github.com/MaitreyiBhale">My GitHub Profile</a>
+        </p>
+
+    </section>
+
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+
+        <!-- CHANGE HERE: Your name -->
+        <p>© 2026 Maitreyi Bhale</p>
+
+    </footer>
+
+</body>
+</html>
